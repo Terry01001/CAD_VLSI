@@ -1,0 +1,17 @@
+Step 1: Perform operation 2 on inputs 2 and 5 to produce output 14
+Step 1: Perform operation 2 on inputs 3 and 6 to produce output 15
+Step 1: Perform operation 2 on inputs 1 and 4 to produce output 13
+Step 2: Perform operation 1 on inputs 13 and 14 to produce output 16
+Step 2: Perform operation 2 on inputs 1 and 7 to produce output 17
+Step 2: Perform operation 2 on inputs 2 and 8 to produce output 18
+Step 2: Perform operation 2 on inputs 3 and 9 to produce output 19
+Step 3: Perform operation 1 on inputs 17 and 18 to produce output 21
+Step 3: Perform operation 2 on inputs 3 and 11 to produce output 25
+Step 3: Perform operation 2 on inputs 2 and 10 to produce output 24
+Step 3: Perform operation 2 on inputs 1 and 9 to produce output 23
+Step 3: Perform operation 1 on inputs 12 and 19 to produce output 22
+Step 3: Perform operation 1 on inputs 16 and 15 to produce output 20
+Step 4: Perform operation 1 on inputs 21 and 22 to produce output 26
+Step 4: Perform operation 1 on inputs 23 and 24 to produce output 27
+Step 4: Perform operation 1 on inputs 12 and 25 to produce output 28
+Step 5: Perform operation 1 on inputs 27 and 28 to produce output 29
