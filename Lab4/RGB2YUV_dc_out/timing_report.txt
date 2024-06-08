@@ -1,0 +1,93 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : RGB2YUV
+Version: U-2022.12
+Date   : Mon May 27 17:46:54 2024
+****************************************
+
+Operating Conditions: ss_typical_max_0p81v_125c   Library: sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c
+Wire Load Model Mode: top
+
+  Startpoint: Controller/Current_State_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Datapath/r4/Q_reg_8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  RGB2YUV            Zero                  sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Controller/Current_State_reg_0_/CK (DFFRPQ_X2M_A9TR)
+                                                          0.00       0.00 r
+  Controller/Current_State_reg_0_/Q (DFFRPQ_X2M_A9TR)     0.12       0.12 r
+  Controller/U19/Y (INV_X1M_A9TR)                         0.02       0.14 f
+  Controller/U54/Y (NOR2_X1A_A9TR)                        0.05       0.18 r
+  Controller/U9/Y (NAND3_X0P5M_A9TR)                      0.09       0.27 f
+  Controller/U33/Y (NAND3_X1A_A9TR)                       0.06       0.33 r
+  Controller/control[12] (Controller)                     0.00       0.33 r
+  Datapath/control[12] (Datapath)                         0.00       0.33 r
+  Datapath/M1/S[1] (MUX3_0)                               0.00       0.33 r
+  Datapath/M1/U2/Y (XNOR2_X0P5M_A9TR)                     0.15       0.48 r
+  Datapath/M1/U21/Y (AOI22_X1M_A9TR)                      0.09       0.57 f
+  Datapath/M1/U20/Y (AO1B2_X1M_A9TR)                      0.06       0.63 r
+  Datapath/M1/Y[1] (MUX3_0)                               0.00       0.63 r
+  Datapath/FU1/A[1] (Mul)                                 0.00       0.63 r
+  Datapath/FU1/mult_7/a[1] (Mul_DW_mult_tc_0)             0.00       0.63 r
+  Datapath/FU1/mult_7/U196/Y (XNOR2_X0P7M_A9TR)           0.18       0.81 r
+  Datapath/FU1/mult_7/U216/Y (NAND2_X1A_A9TR)             0.11       0.92 f
+  Datapath/FU1/mult_7/U286/Y (OAI22_X0P5M_A9TR)           0.10       1.02 r
+  Datapath/FU1/mult_7/U50/S (ADDH_X1M_A9TR)               0.12       1.14 f
+  Datapath/FU1/mult_7/U210/Y (AOI222_X1M_A9TR)            0.09       1.23 r
+  Datapath/FU1/mult_7/U209/Y (INV_X1M_A9TR)               0.03       1.26 f
+  Datapath/FU1/mult_7/U208/Y (AOI222_X1M_A9TR)            0.09       1.35 r
+  Datapath/FU1/mult_7/U207/Y (INV_X1M_A9TR)               0.03       1.38 f
+  Datapath/FU1/mult_7/U197/Y (AOI222_X1M_A9TR)            0.09       1.47 r
+  Datapath/FU1/mult_7/U205/Y (INV_X1M_A9TR)               0.03       1.50 f
+  Datapath/FU1/mult_7/U324/Y (AOI222_X0P5M_A9TR)          0.12       1.62 r
+  Datapath/FU1/mult_7/U204/Y (INV_X1M_A9TR)               0.04       1.66 f
+  Datapath/FU1/mult_7/U206/Y (AOI222_X1M_A9TR)            0.09       1.75 r
+  Datapath/FU1/mult_7/U227/Y (INV_X1M_A9TR)               0.04       1.78 f
+  Datapath/FU1/mult_7/U10/CO (ADDF_X1M_A9TR)              0.08       1.86 f
+  Datapath/FU1/mult_7/U9/CO (ADDF_X1M_A9TR)               0.08       1.95 f
+  Datapath/FU1/mult_7/U8/CO (ADDF_X1M_A9TR)               0.08       2.03 f
+  Datapath/FU1/mult_7/U7/CO (ADDF_X1M_A9TR)               0.08       2.11 f
+  Datapath/FU1/mult_7/U6/CO (ADDF_X1M_A9TR)               0.08       2.19 f
+  Datapath/FU1/mult_7/U5/CO (ADDF_X1M_A9TR)               0.08       2.28 f
+  Datapath/FU1/mult_7/U4/CO (ADDF_X1M_A9TR)               0.08       2.36 f
+  Datapath/FU1/mult_7/U3/CO (ADDF_X1M_A9TR)               0.08       2.43 f
+  Datapath/FU1/mult_7/U228/Y (XOR2_X0P7M_A9TR)            0.03       2.47 r
+  Datapath/FU1/mult_7/U217/Y (XOR2_X0P7M_A9TR)            0.11       2.57 r
+  Datapath/FU1/mult_7/product[16] (Mul_DW_mult_tc_0)      0.00       2.57 r
+  Datapath/FU1/Mul[8] (Mul)                               0.00       2.57 r
+  Datapath/M7/A[8] (MUX2_3)                               0.00       2.57 r
+  Datapath/M7/U1/Y (AO22_X0P7M_A9TR)                      0.09       2.66 r
+  Datapath/M7/Y[8] (MUX2_3)                               0.00       2.66 r
+  Datapath/r4/D[8] (Register_6)                           0.00       2.66 r
+  Datapath/r4/U3/Y (AO22_X1M_A9TR)                        0.06       2.72 r
+  Datapath/r4/Q_reg_8_/D (DFFRPQ_X2M_A9TR)                0.00       2.72 r
+  data arrival time                                                  2.72
+
+  clock clk (rise edge)                                   2.76       2.76
+  clock network delay (ideal)                             0.00       2.76
+  Datapath/r4/Q_reg_8_/CK (DFFRPQ_X2M_A9TR)               0.00       2.76 r
+  library setup time                                     -0.04       2.72
+  data required time                                                 2.72
+  --------------------------------------------------------------------------
+  data required time                                                 2.72
+  data arrival time                                                 -2.72
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

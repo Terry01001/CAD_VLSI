@@ -1,0 +1,68 @@
+ 
+****************************************
+Report : area
+Design : RGB2YUV
+Version: U-2022.12
+Date   : Mon May 27 17:46:54 2024
+****************************************
+
+Library(s) Used:
+
+    sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c (File: /cad/CBDK/CBDK_TSMC40_Arm_f2.0/CIC/SynopsysDC/db/sc9_base_rvt/sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c.db)
+
+Number of ports:                          773
+Number of nets:                          1382
+Number of cells:                          621
+Number of combinational cells:            511
+Number of sequential cells:                85
+Number of macros/black boxes:               0
+Number of buf/inv:                         68
+Number of references:                       2
+
+Combinational area:                691.966788
+Buf/Inv area:                       32.205599
+Noncombinational area:             385.559981
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  1077.526769
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ----------------
+RGB2YUV                           1077.5268    100.0    0.0000     0.0000  0.0000  RGB2YUV
+Controller                          59.6484      5.5   41.5044    18.1440  0.0000  Controller
+Datapath                          1017.8784     94.5    2.0412     0.0000  0.0000  Datapath
+Datapath/FU1                       285.9948     26.5    0.0000     0.0000  0.0000  Mul
+Datapath/FU1/mult_7                285.9948     26.5  285.9948     0.0000  0.0000  Mul_DW_mult_tc_0
+Datapath/FU2                        32.2056      3.0    0.6804     0.0000  0.0000  Add
+Datapath/FU2/add_5                  31.5252      2.9   31.5252     0.0000  0.0000  Add_DW01_add_0
+Datapath/FU3                        13.1544      1.2   13.1544     0.0000  0.0000  ROM
+Datapath/M1                         24.0408      2.2   24.0408     0.0000  0.0000  MUX3_0
+Datapath/M2                         30.1644      2.8   30.1644     0.0000  0.0000  MUX4
+Datapath/M3                         24.0408      2.2   24.0408     0.0000  0.0000  MUX3_2
+Datapath/M4                         24.0408      2.2   24.0408     0.0000  0.0000  MUX3_1
+Datapath/M5                         14.7420      1.4   14.7420     0.0000  0.0000  MUX2_0
+Datapath/M6                         14.7420      1.4   14.7420     0.0000  0.0000  MUX2_4
+Datapath/M7                         14.7420      1.4   14.7420     0.0000  0.0000  MUX2_3
+Datapath/M8                         14.7420      1.4   14.7420     0.0000  0.0000  MUX2_2
+Datapath/M9                         14.7420      1.4   14.7420     0.0000  0.0000  MUX2_1
+Datapath/r1                         56.7000      5.3   15.8760    40.8240  0.0000  Register_0
+Datapath/r2                         56.0196      5.2   15.1956    40.8240  0.0000  Register_8
+Datapath/r3                         56.0196      5.2   15.1956    40.8240  0.0000  Register_7
+Datapath/r4                         56.0196      5.2   15.1956    40.8240  0.0000  Register_6
+Datapath/r5                         56.7000      5.3   15.8760    40.8240  0.0000  Register_5
+Datapath/r6                         56.7000      5.3   15.8760    40.8240  0.0000  Register_4
+Datapath/r7                         57.1536      5.3   16.3296    40.8240  0.0000  Register_3
+Datapath/r8                         56.0196      5.2   15.1956    40.8240  0.0000  Register_1
+Datapath/r9                         57.1536      5.3   16.3296    40.8240  0.0000  Register_2
+--------------------------------  ---------  -------  --------  ---------  ------  ----------------
+Total                                                 691.9668   385.5600  0.0000
+
+1
